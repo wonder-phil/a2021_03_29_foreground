@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Foreground Service No Radio</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="notification_title">Notifying forground service</string>
+    <string name="notification_message">Forground service</string>
+    <string name="ticker_text">At your service</string>
+
+</resources>

@@ -51,7 +51,7 @@ public class RadioService extends Service {
             } else {
                 if (!runningInBackground) {
                     runningInBackground = true;
-                    backgroundThread = new Thread("Background Thread") {
+                    backgroundThread = new Thread("Background Thread in Foreground") {
                         @Override
                         public void run() {
                             while (keepRunning) {
